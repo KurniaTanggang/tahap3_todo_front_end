@@ -41,6 +41,7 @@ export default {
           this.users.push({id:res.data.id, username: this.username, password: this.password})
           //location.reload()
         })
+      
     },
     hapus: function (id) {
       const username = localStorage.getItem('usr')
